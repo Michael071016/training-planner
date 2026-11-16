@@ -1,7 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect x="6" y="22" width="8" height="20" rx="2" fill="#1F5FA6" />
-  <rect x="50" y="22" width="8" height="20" rx="2" fill="#1F5FA6" />
-  <rect x="14" y="17" width="7" height="30" rx="2" fill="#1B1E22" />
-  <rect x="43" y="17" width="7" height="30" rx="2" fill="#1B1E22" />
-  <rect x="21" y="29" width="22" height="6" rx="1" fill="#1B1E22" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- The browser tab icon: the home screen icon with rounded corners. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff8a00" />
+      <stop offset="1" stop-color="#ff2d6f" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="115" fill="url(#bg)" />
+  <g transform="rotate(-28 256 256) translate(-16 0)">
+    <!-- The flame trailing behind, so the dumbbell looks like it's moving fast. -->
+    <path d="M100 256 C124 234 142 228 166 232 C156 244 156 268 166 280 C142 284 124 278 100 256 Z" fill="#ffe08a" />
+    <path d="M124 256 C138 246 150 244 166 246 C160 252 160 260 166 266 C150 268 138 266 124 256 Z" fill="#ffffff" />
+    <!-- The dumbbell: outer plates, inner plates, and the handle, each with a thin black outline so the plates stand apart. -->
+    <g fill="#ffffff" stroke="#111111" stroke-width="6">
+      <rect x="160" y="180" width="40" height="152" rx="14" />
+      <rect x="412" y="180" width="40" height="152" rx="14" />
+      <rect x="200" y="138" width="54" height="236" rx="18" />
+      <rect x="358" y="138" width="54" height="236" rx="18" />
+      <rect x="254" y="234" width="104" height="44" rx="12" />
+    </g>
+  </g>
 </svg>
